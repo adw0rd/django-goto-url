@@ -12,11 +12,31 @@ For more details see:
 Settings:
 ------------------------
 
-::
+Add to ``settings.py``::
 
     INSTALLED_APPS = (
         'goto_url',
     )
 
+Add to ``url.py``::
+
+    urlpatterns = patterns('',
+        url(r'', include('goto_url.urls')),
+    )
 
 
+Using:
+------------------------
+
+1. The templates can be used as follows::
+
+    {% load goto_url %}
+    {% goto_url comment.user_url %}
+    {% goto_url "http://adw0rd.com/" %}
+
+2. Not in the templates can be used as follows::
+
+    from goto_url.utils import goto_url
+    
+    goto_url('http://adw0rd.com/')
+    >>> '/goto/aHR0cDovL2FkdzByZC5jb20v'
