@@ -6,7 +6,8 @@ Wraps external links in base64 and relocate on the special View, later redirect 
 For more details see:
 ------------------------
 
-* http://github.com/adw0rd/django-goto-url
+* http://github.com/adw0rd/django-goto-url - the GitHub repository
+* http://pypi.python.org/pypi/django-goto-url - the PyPI page
 
 
 Settings:
