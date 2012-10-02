@@ -1,5 +1,5 @@
 from django.template import Library
-from goto_url import utils
+from .. import utils
 
 register = Library()
 
