@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 from goto_url import __version__
 
-
+long_description = ""
 try:
     readme = open("README.rst")
     long_description = str(readme.read())
     readme.close()
 except:
-    long_description = ""
+    pass
 
 setup(
     name='django-goto-url',
