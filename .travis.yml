@@ -7,5 +7,8 @@ python:
 env:
   - DJANGO_VERSION=1.4.1
 
+install:
+  - pip install -q Django==$DJANGO_VERSION
+
 # command to run tests
 script: python goto_url/tests.py
