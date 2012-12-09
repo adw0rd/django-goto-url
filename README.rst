@@ -31,7 +31,7 @@ Add to ``url.py``::
     )
 
 
-Using:
+Usage:
 ------------------------
 
 1. The templates can be used as follows::
