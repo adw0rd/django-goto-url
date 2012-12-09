@@ -2,7 +2,7 @@
 import unittest
 from nose.tools import eq_
 
-from goto_url import utils
+import utils
 
 
 class TestGotoUrl(unittest.TestCase):
