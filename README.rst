@@ -3,6 +3,9 @@ django-goto-url
 
 .. image:: https://secure.travis-ci.org/adw0rd/django-goto-url.png
     :target: http://travis-ci.org/adw0rd/django-goto-url
+    
+.. image:: https://pypip.in/d/django-goto-url/badge.png
+    :target: http://pypi.python.org/pypi/django-goto-url
 
 Wraps external links in base64 and relocate on the special View, later redirect to source URL
 
